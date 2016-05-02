@@ -1,0 +1,104 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+tabs:
+    fields:
+      # Main settings
+      recipient_email:
+        label: devinx.contactus::lang.strings.recipient_email
+        comment: devinx.contactus::lang.strings.recipient_email_comment
+        description: devinx.contactus::lang.strings.recipient_email_desc
+        type: text
+        required: true
+        tab: devinx.contactus::lang.tabs.main
+      recipient_name:
+        label: devinx.contactus::lang.strings.recipient_name
+        comment: devinx.contactus::lang.strings.recipient_name_comment
+        description: devinx.contactus::lang.strings.recipient_name_desc
+        type: text
+        required: true
+        tab: devinx.contactus::lang.tabs.main
+      subject:
+        label: devinx.contactus::lang.strings.subject
+        comment: devinx.contactus::lang.strings.subject_comment
+        description: devinx.contactus::lang.strings.subject_desc
+        type: text
+        required: true
+        tab: devinx.contactus::lang.tabs.main
+      confirmation_text:
+        label: devinx.contactus::lang.strings.confirmation_text
+        comment: devinx.contactus::lang.strings.confirmation_text_comment
+        description: devinx.contactus::lang.strings.confirmation_text_desc
+        type: richeditor
+        required: true
+        tab: devinx.contactus::lang.tabs.main
+      enable_captcha:
+        label: devinx.contactus::lang.strings.enable_captcha
+        comment: devinx.contactus::lang.strings.enable_captcha_comment
+        description: devinx.contactus::lang.strings.enable_captcha_desc
+        type: switch
+        tab: devinx.contactus::lang.tabs.main
+      site_key:
+        label: devinx.contactus::lang.strings.site_key
+        comment: devinx.contactus::lang.strings.site_key_comment
+        description: devinx.contactus::lang.strings.site_key_desc
+        type: text
+        tab: devinx.contactus::lang.tabs.main
+        trigger:
+          action: show
+          field: enable_captcha
+          condition: checked
+      secret_key:
+        label: devinx.contactus::lang.strings.secret_key
+        comment: devinx.contactus::lang.strings.secret_key_comment
+        description: devinx.contactus::lang.strings.secret_key_desc
+        type: text
+        tab: devinx.contactus::lang.tabs.main
+        trigger:
+          action: show
+          field: enable_captcha
+          condition: checked
+      enable_server_captcha_validation:
+        label: devinx.contactus::lang.strings.enable_server_captcha_validation
+        comment: devinx.contactus::lang.strings.enable_server_captcha_validation_comment
+        description: devinx.contactus::lang.strings.enable_server_captcha_validation_desc
+        type: switch
+        tab: devinx.contactus::lang.tabs.main
+        trigger:
+          action: show
+          field: enable_captcha
+          condition: checked
+
+      # Forms settings
+
+      drivers_hint:
+        type: partial
+        path: ~/plugins/DevINX/ContactUs/models/settings/_forms_hint.htm
+        tab: devinx.contactus::lang.tabs.forms
+      name_input:
+        label: Name
+        type: text
+        tab: devinx.contactus::lang.tabs.forms
+        default: Enter name
+      email_input:
+        label: Email
+        type: text
+        tab: devinx.contactus::lang.tabs.forms
+        default: Enter email
+      subject_input:
+        label: Subject
+        type: text
+        tab: devinx.contactus::lang.tabs.forms
+        default: Enter subject
+      message_input:
+        label: Message
+        type: text
+        tab: devinx.contactus::lang.tabs.forms
+        default: Enter message
+      send_button:
+        label: Send button
+        type: text
+        tab: devinx.contactus::lang.tabs.forms
+        default: Send
+

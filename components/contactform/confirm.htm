@@ -1,0 +1,7 @@
+{% if errorHappened %}
+    {% partial __SELF__~'::flash-messages' %}
+{% else %}
+    <p>
+        {{confirmation_text}}
+    </p>
+{% endif %}
