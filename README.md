@@ -1,4 +1,6 @@
 # Contact Us
+![Banner](http://i.imgur.com/QRBLNQN.png)
+
 A simple, complete and modular contact form for [OctoberCMS
 ](https://octobercms.com) by DevINX. Original work by [Lamin Sanneh (Flexi Contact)](https://github.com/LaminSanneh/Octobercms-Flexi-Contact-Plugin).
 
