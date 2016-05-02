@@ -2,7 +2,7 @@
 A simple, complete and modular contact form for [OctoberCMS
 ](https://octobercms.com) by DevINX. Original work by [Lamin Sanneh (Flexi Contact)](https://github.com/LaminSanneh/Octobercms-Flexi-Contact-Plugin).
 
-The goal of this plugin is to ammodate the user who wants more functionnality.
+The goal of this plugin is to accommodate the user who wants more functionnality.
 
 # Installation or Setup
 
