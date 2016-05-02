@@ -5,7 +5,6 @@ A simple, complete and modular contact form for [OctoberCMS
 The goal of this plugin is to ammodate the user who wants more functionnality.
 
 # Installation or Setup
----
 
 > If you upgrade from Flexi Contact, we recommand to read the [Upgrade guide](https://github.com/DevINX/oc-contactus/wiki/Upgrade-guide) to learn the changes between the two plugins.
 
@@ -15,7 +14,6 @@ The goal of this plugin is to ammodate the user who wants more functionnality.
 4. The fields with a red asterisk should be filled. The others are optional
 
 # Usage
----
 After doing the setup steps, you can use the contact form in two ways:
 
 ###1. Using the component
@@ -33,7 +31,6 @@ This will add to the form to the page.
 See [Custom markup](https://github.com/DevINX/oc-contactus/wiki/Custom-markup) for more information.
 
 # Dependencies
----
 In order to make the form work, you need to inject the dependencies. Add this to your page :
 ```
 {% framework %}
