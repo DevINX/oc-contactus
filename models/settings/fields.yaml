@@ -74,7 +74,7 @@ tabs:
 
       drivers_hint:
         type: partial
-        path: ~/plugins/DevINX/ContactUs/models/settings/_forms_hint.htm
+        path: ~/plugins/devinx/contactus/models/settings/_forms_hint.htm
         tab: devinx.contactus::lang.tabs.forms
       name_input:
         label: Name
