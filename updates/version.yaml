@@ -1,5 +1,8 @@
 1.0.0:
     - First Version
-    
+
 1.0.1:
     - Bug fix while in settings
+
+1.0.2:
+    - Bug fix - the configuration text displayed HTML and not rendered HTML

@@ -2,6 +2,6 @@
     {% partial __SELF__~'::flash-messages' %}
 {% else %}
     <p>
-        {{confirmation_text}}
+        {{confirmation_text|raw}}
     </p>
 {% endif %}
